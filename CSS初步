@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>补充学习CSS</title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+   
+</head>
+<body>
+    <h1>CSS补充</h1>
+    <h2>2019.10.18</h2>
+    <p1>菜鸡：</p1>
+    <p class="blue">牛夏舟</p>
+    <a class="a1" href="https://blog.csdn.net/icy_crystal/article/details/102636573">
+    连接到我的博客</a>
+    <p>S9近期世界赛赛程，LPL加油！</p>
+    <p class="div1">RNG VS SKT<br/>SKT VS FNC<br />
+    CG VS RNG<br />HKA VS C9<br />G2 VS GRF</p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+CSS
+
+
+
+
+body
+{
+    background-color:aliceblue;
+    background-repeat:no-repeat;
+    background-position:right left;
+}
+
+/*background-image:url('th.jpg');*/
+/*简写顺序background-color  background-image    background-repeat
+    background-attachment  background-position属性无需全部使用*/
+h1{text-align:center;
+   text-decoration:overline;
+}
+h2{text-align:right;}
+hr {
+    font-size: 20px;
+    color: red;
+}
+a{text-decoration:none;}
+p{margin-left:40px;}
+p.blue{color:blue;}
+p.全大写{text-transform:uppercase;}
+p.全小写{text-transform:lowercase;}
+p.首字母{text-transform:capitalize;}/*indent为文本缩进*/
+
+/*在所有浏览器的解决方案中，设置 <body>元素的默认字体大小的是百分比*/
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:line-through;}
+a:active{text-decoration:overline;}
+/*也可以设置background-color*/
+
+/*盒子模型中有margin,border,padding,content*/
+
+/*对于border来说有四个方向top,left,right,bottom eg.bottom-top-style*/
+/*对于outline来说就是位于边框外缘的线，起到突出的作用*/
+
+/*定位有5种1:static   2:fixed:相对于窗口是固定位置，即使滚动，位置也不会变化
+    3：relative即相对于其正常位置发生移动（eg.left:20px或left-20px  top)
+    4:absolute绝对定位，可以放在html页面的任何位置，即使是发生重合。
+    5：sticky标签很重要即粘性标签，开始时相当于固定位置，脱离页面后相当于
+    相对位置）
+*/
+/*overflow:auto>scroll,会显示滚动条，visible会显示在页面之外，hidden会自动裁剪*/
+.div1{
+    width:auto;
+    height:50px;
+    background-color:red;
+    overflow:auto;
+}
