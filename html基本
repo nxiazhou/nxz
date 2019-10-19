@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>前端任务2</title><!--<base href="页面内所有链接的默认地址" target="_blank">-->
+    <!--target="blank"解释：浏览器将会载入和显示用这个标签的 href 属性命名的、名称与这个目标吻合
+        的框架或者窗口中的文档。如果这个指定名称或 id 的框架或者窗口不存在，浏览器将打开
+        一个新的窗口，给这个窗口一个指定的标记，然后将新的文档载入那个窗口。-->
+
+    <style type="text/css">
+        h1 {
+           
+            text-align:center;
+            color: red;
+            font-size:x-large;
+        }
+
+        p1 {
+            text-align:left;
+            color: blue;
+            font-size:medium;
+        }
+    </style><!--style样式引用格式放在标题中，之后再指定文本内容-->
+    <meta name="description" content="招新历练二" />
+    <mata name="author" content="牛夏舟" />
+    <mata name="time" content="10.16" />
+    <!--元数据可以描述网页，元数据不会显示在用户端，元数据可以被使用浏览器
+        （如何显示内容或重新加载页面），搜索引擎（关键词），
+        或其他 Web 服务调用。-->
+
+
+
+</head>
+<body>
+    <h1>前端网页(web)</h1>
+    <p1>前端制作人：<br />牛夏舟</p1>
+    <!--这是强制换行-->
+    <hr />
+    <!--这是一个分界线-->
+    <a href="https://www.baidu.com">跳转到百度</a><br />
+    <img border="10px" src="捕获.png" alt="一刀999999" width="300" height="300" />
+    <br />
+    <!--alt就是图片不显示时候会出现的内容-->
+    <!--这是一个注释-->
+    <a href="https://blog.csdn.net/icy_crystal/article/details/102636573">
+    前端任务二csdn博客</a><br />
+    <!--记得补全网页-->
+    <b>加粗文本</b><br />
+    <i>斜体文本</i><br />
+    <table cellpadding="10" cellspacing="10">
+        <caption>除法</caption>
+        <tr>
+            <th>被除数</th>
+            <th colspan="2">除数</th>
+            <th>商</th>
+        <tr />
+        <tr>
+            <td>100</td>
+            <td colspan="2">10</td>
+            <td>10</td>
+        </tr>
+    </table>
+    <p2>前端三大件</p2><br />
+    <ul>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+    </ul>
+    <!--有序列表为ol（带数字），
+        自定义列表用dl（每个自定义列表项以 <dt> 开始。
+        每个自定义列表项的定义以 <dd> 开始。）-->
+    <!--{                       HTML区块
+
+        <div>元素可用于对大的内容块设置样式属性。另一个常见的用途是文档布局。
+        它取代了使用表格定义布局的老式方法。
+        使用 <table> 元素进行文档布局不是表格的正确用法。
+        <table> 元素的作用是显示表格化的数据。
+
+        <span>用来组合文档中的行内元素， 内联元素(inline)。
+        当与 CSS 一同使用时，<span> 元素可用于为部分文本设置样式属性。
+
+        -->
+    <div id="container" style=" width:200px"/>
+    <div id="header" style="background-color:chartreuse";height="100px";width="20";
+         float="left">说一句骚话，我太难了。</div>
+    <!--HTML推荐使用DIV布局-->
+<form>
+    FIRST NAME:<input  type="text" name="firstname" /><br />
+    LAST  NAME:<input  type="text" name="lastname" /> <br/>
+    Passerword:<input  type="text" name="pwd" /><br />
+    <input  type="radio" name="sex" value="male" />Male<br />
+    <input  type="radio" name="sex" value="female">Female<br />
+   
+</form>
+    <!--补充一下：复选框为checkbox-->
+
+    <!--补充一下JAVA交互-->
+
+
+
+
+
+
+
+
+</body>
+</html>
