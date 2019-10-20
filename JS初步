@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>招新任务三</title>
+    <link rel="stylesheet" type="text/css" href="1.css" />
+   <script src="1.js"></script>
+    <script>var name = prompt("你的名字是：", "");
+    document.write(name)</script>
+    <script>
+        function myfunction() {
+            document.getElementById("hello").innerHTML = "hello world!";
+        }
+    </script>
+    <script>
+        function vary(){
+            document.getElementById("Hello").innerHTML = "hello microsoft studio";
+        }
+    </script>
+    
+</head>
+<body>
+    <h1>招新任务三</h1>
+    <h2>牛夏舟</h2>
+    <p id="hello">hello</p>
+    <p id="Hello">点击按钮后查看原格式</p>
+    <button type="button" onclick="myfunction()">点击此处</button>
+    <button onclick="vary()">点此处查看原格式:</button>
+    <script>
+        var str = "hello microsoft studio";
+        var i = str.length;
+        i = i - 1;
+        for (var x = i; x >= 0; x--) {
+            document.write(str.charAt(x));
+        }
+
+    </script>
+</body>
+</html>
+
+
+body
+{
+   
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
+    text-emphasis-color:blue;
+}
+
+p {
+    margin-left: auto;
+}
+
+
+// JavaScript source code
+alert("hello world!")
+
+
